@@ -28,7 +28,7 @@ import loenwind.enderioaddons.timer.Ticker;
     modid = EnderIOAddons.MODID,
     name = EnderIOAddons.MOD_NAME,
     version = EnderIOAddons.VERSION,
-    dependencies = "required-after:EnderIO;required-after:gtnhlib;required-after:waterhooks;after:AgriCraft",
+    dependencies = "required-after:EnderIO;required-after:gtnhlib;after:waterhooks;after:AgriCraft",
     guiFactory = "loenwind.enderioaddons.config.gui.ConfigFactory")
 public class EnderIOAddons implements InitAware {
 

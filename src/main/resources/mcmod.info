@@ -14,9 +14,7 @@
     "screenshots": [],
     "parent": "",
     "requiredMods": [],
-    "dependencies": [
-      "waterhooks"
-    ],
+    "dependencies": [],
     "dependants": [],
     "useDependencyInformation": false
   }]
