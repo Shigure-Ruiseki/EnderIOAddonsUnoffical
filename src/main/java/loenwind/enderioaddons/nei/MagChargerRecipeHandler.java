@@ -15,7 +15,7 @@ import codechicken.lib.gui.GuiDraw;
 import codechicken.nei.PositionedStack;
 import codechicken.nei.recipe.TemplateRecipeHandler;
 import crazypants.enderio.gui.IconEIO;
-import crazypants.enderio.machine.power.PowerDisplayUtil;
+import crazypants.enderio.power.PowerDisplayUtil;
 import loenwind.enderioaddons.EnderIOAddons;
 import loenwind.enderioaddons.config.Config;
 import loenwind.enderioaddons.machine.flag.BlockFlag;

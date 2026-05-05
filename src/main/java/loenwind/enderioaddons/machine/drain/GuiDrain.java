@@ -39,11 +39,6 @@ public class GuiDrain extends GuiEIOABase<TileDrain> {
     }
 
     @Override
-    protected boolean showRecipeButton() {
-        return false;
-    }
-
-    @Override
     protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
         GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
         RenderUtil.bindTexture(EnderIOAddons.DOMAIN + ":textures/gui/drain.png");

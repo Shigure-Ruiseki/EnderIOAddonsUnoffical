@@ -176,11 +176,6 @@ public class GuiTcom extends GuiEIOABase<TileTcom> {
     }
 
     @Override
-    protected boolean showRecipeButton() {
-        return false;
-    }
-
-    @Override
     protected int getPowerX() {
         return 8;
     }
