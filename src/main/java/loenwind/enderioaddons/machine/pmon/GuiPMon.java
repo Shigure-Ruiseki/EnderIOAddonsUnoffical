@@ -57,11 +57,6 @@ public class GuiPMon extends GuiEIOABase<TilePMon> {
     }
 
     @Override
-    protected boolean showRecipeButton() {
-        return false;
-    }
-
-    @Override
     protected int getPowerX() {
         return 8;
     }

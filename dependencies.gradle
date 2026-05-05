@@ -34,24 +34,21 @@
  * For more details, see https://docs.gradle.org/8.0.1/userguide/java_library_plugin.html#sec:java_library_configurations_graph
  */
 dependencies {
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.7.40-GTNH:dev")
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:GTNHLib:0.6.20:dev")
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:Angelica:1.0.0-beta41:dev")
-    runtimeOnlyNonPublishable("com.github.GTNewHorizons:WDMla:2.7.1:dev")
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:NotEnoughItems:2.8.93-GTNH:dev")
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:Angelica:2.1.21:dev")
+    runtimeOnlyNonPublishable("com.github.GTNewHorizons:waila:1.9.5:dev") { transitive = false }
     implementation 'cglib:cglib-nodep:3.1'
 
-    api('com.github.GTNewHorizons:CodeChickenCore:1.4.1:dev')
-    api('com.github.GTNewHorizons:EnderCore:0.4.6:dev') {transitive = false}
-    api("com.github.GTNewHorizons:EnderIO:2.7.0:dev")
+    api('com.github.GTNewHorizons:CodeChickenCore:1.4.12:dev')
+    api('com.github.GTNewHorizons:EnderCore:0.5.14:dev') {transitive = false}
+    api("com.github.GTNewHorizons:EnderIO:5.2.62:dev")
+    api("com.github.GTNewHorizons:GTNHLib:0.9.59:dev")
+    implementation('com.thoughtworks.xstream:xstream:1.4.8')
 
-    compileOnly('com.github.GTNewHorizons:BuildCraft:7.1.39:dev')
-    compileOnly('com.github.GTNewHorizons:WDMla:2.7.1:api') {transitive = false}
-    compileOnly('com.github.GTNewHorizons:ForestryMC:4.9.0:dev')
-    compileOnly('com.github.GTNewHorizons:NotEnoughItems:2.7.40-GTNH:dev')
-
+    compileOnly('com.github.GTNewHorizons:BuildCraft:7.1.59:dev')
     compileOnly('curse.maven:waterhook-236204:2297446') // https://www.curseforge.com/minecraft/mc-mods/waterhook/files/2297446
-
-    implementation "com.thoughtworks.xstream:xstream:1.4.8"
+    compileOnly('com.github.GTNewHorizons:ForestryMC:4.11.19:dev')
+    compileOnly('com.github.GTNewHorizons:NotEnoughItems:2.8.93-GTNH:dev')
 
     devOnlyNonPublishable(rfg.deobf(project.files("lib/AgriCraft-1.7.10-1.4.2-api.jar")))
 

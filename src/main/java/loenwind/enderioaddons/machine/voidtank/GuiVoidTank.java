@@ -42,11 +42,6 @@ public class GuiVoidTank extends GuiEIOABase<TileVoidTank> {
     }
 
     @Override
-    protected boolean showRecipeButton() {
-        return false;
-    }
-
-    @Override
     protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
         int sx = (width - xSize) / 2;
         int sy = (height - ySize) / 2;
