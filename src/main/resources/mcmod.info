@@ -1,20 +1,23 @@
-[
 {
-  "modid": "enderioaddons",
-  "name": "Ender IO Addons",
-  "description": "Additional machines for Ender IO.",
-  "version": "1.2",
-  "mcversion": "1.7.10",
-  "url": "https://github.com/Shigure-Ruiseki/EnderIOAddonsUnoffical",
-  "updateUrl": "",
-  "authorList": [ "HenryLoenwind , Louis fork" ],
-  "credits": "Thx to CrazyPants for Ender IO and HenryLoenwind for mod",
-  "logoFile": "",
-  "screenshots": [
-  ],
-  "parent":"",
-  "dependencies": [
-    "waterhooks"
-  ]
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "${modId}",
+    "name": "${modName}",
+    "description": "",
+    "version": "${modVersion}",
+    "mcversion": "${minecraftVersion}",
+    "url": "https://github.com/Shigure-Ruiseki/EnderIOAddonsUnoffical",
+    "updateUrl": "",
+    "authorList": ["HenryLoenwind, Shiruge Ruiseki fork"],
+    "credits": "Thx to CrazyPants for Ender IO and HenryLoenwind for mod",
+    "logoFile": "",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [],
+    "dependencies": [
+      "waterhooks"
+    ],
+    "dependants": [],
+    "useDependencyInformation": false
+  }]
 }
-]
